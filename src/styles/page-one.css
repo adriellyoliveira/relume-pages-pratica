@@ -182,8 +182,10 @@ main {
 
 /* Fim Hero Header */
 
+/* Começo Footer */
+
 footer {
-    height: 655px;
+    height: 555px;
     padding: 80px 64px;
 
     display: flex;
@@ -276,3 +278,5 @@ footer {
     font-size: 14px;
     text-decoration: underline;
 }
+
+/* Fim Footer */
