@@ -1,0 +1,273 @@
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Começo NavBar */
+
+header {
+    height: 275px;
+}
+
+.nav-link {
+    height: 72px;
+    padding: 42px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.nav-content>img {
+    width: 84px;
+    height: 36px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+
+    gap: 32px;
+}
+
+.drop-down {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.btn-secundary {
+    border: 1px solid #000000;
+    background-color: transparent;
+    color: #000000;
+}
+
+.nav-button {
+    display: flex;
+    gap: 16px;
+}
+
+.menu {
+    padding: 32px 64px;
+}
+
+.menu-list {
+    display: flex;
+    gap: 32px;
+}
+
+.menu-item {
+    height: 66px;
+    display: flex;
+    align-items: start;
+    gap: 12px;
+}
+
+.menu-text>h6 {
+    font-weight: 600;
+}
+
+.menu-text>p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content {
+    padding: 16px 64px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.content>a {
+    text-decoration: underline;
+}
+
+/* Fim NavBar */
+
+/* Começo Hero Header */
+
+main {
+    height: 900px;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.hero-content {
+    height: 450px;
+    padding: 112px 64px;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text {
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.hero-text>p {
+    font-size: 18px;
+}
+
+.hero-button {
+    display: flex;
+    gap: 16px;
+}
+
+.hero-video {
+    height: 450px;
+
+    background-image: url(../assets/images/placeholder-lightbox.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Fim Hero Header */
+
+/* Começo Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 80px 64px;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter-text>h6 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form {
+    display: flex;
+    gap: 16px;
+}
+
+.cta>p>a {
+    text-decoration: underline;
+}
+
+input {
+    width: 265px;
+    height: 48px;
+    padding: 12px;
+    border: 1px solid #000000;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cta>p {
+    font-size: 12px;
+}
+
+.cta>p>a {
+    font-size: 12px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links>a {
+    font-size: 14px;
+}
+
+.column {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column>h6 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.column>.links {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer-credits {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+}
+
+.row-credits {
+    display: flex;
+    justify-content: space-between;
+}
+
+.credits {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.credits>nav {
+    display: flex;
+    gap: 24px;
+}
+
+.credits>p {
+    font-size: 14px;
+}
+
+.credits>nav>a {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.social-media {
+    display: flex;
+    gap: 12px;
+}
+
+/* Fim Footer */
